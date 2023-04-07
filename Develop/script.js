@@ -38,12 +38,12 @@ isValid = false;
     var requiresUppercase = confirm("Uppercase?")
     var requiresNumeric = confirm("Numeric?")
     var requiresSpecial= confirm("Special?")
-    if (requiresSpecial && requiresNumeric && requiresUppercase&& requiresLowercase){
+    if (requiresSpecial || requiresNumeric || requiresUppercase || requiresLowercase){
       isValid = true;
     }
   }
   
-  
+
   
 }
 
